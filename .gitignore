@@ -1,0 +1,5 @@
+.DS_Store
+Logger/Logger.o
+Logger/Logger.swiftdoc
+Logger/Logger.swiftmodule
+Logger/libLogger.a
