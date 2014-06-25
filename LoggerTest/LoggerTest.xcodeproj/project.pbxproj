@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4661D34A195B045C00980888 /* libLogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4661D347195B045C00980888 /* libLogger.a */; };
 		46CE0335195A1C2D0066A215 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CE0334195A1C2D0066A215 /* main.swift */; };
+		46E1ADCC195B0A4B001867A9 /* libLogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E1ADC9195B0A4B001867A9 /* libLogger.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,11 +24,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4661D347195B045C00980888 /* libLogger.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLogger.a; sourceTree = "<group>"; };
-		4661D348195B045C00980888 /* Logger.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Logger.swiftdoc; sourceTree = "<group>"; };
-		4661D349195B045C00980888 /* Logger.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = Logger.swiftmodule; sourceTree = "<group>"; };
+		4617C858195B0B4000C2D337 /* Logger.swiftdoc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Logger.swiftdoc; sourceTree = "<group>"; };
 		46CE0331195A1C2D0066A215 /* LoggerTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LoggerTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46CE0334195A1C2D0066A215 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		46E1ADC9195B0A4B001867A9 /* libLogger.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLogger.a; sourceTree = "<group>"; };
+		46E1ADCB195B0A4B001867A9 /* Logger.swiftmodule */ = {isa = PBXFileReference; lastKnownFileType = file; path = Logger.swiftmodule; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4661D34A195B045C00980888 /* libLogger.a in Frameworks */,
+				46E1ADCC195B0A4B001867A9 /* libLogger.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,9 +62,9 @@
 		46CE0333195A1C2D0066A215 /* LoggerTest */ = {
 			isa = PBXGroup;
 			children = (
-				4661D347195B045C00980888 /* libLogger.a */,
-				4661D348195B045C00980888 /* Logger.swiftdoc */,
-				4661D349195B045C00980888 /* Logger.swiftmodule */,
+				4617C858195B0B4000C2D337 /* Logger.swiftdoc */,
+				46E1ADC9195B0A4B001867A9 /* libLogger.a */,
+				46E1ADCB195B0A4B001867A9 /* Logger.swiftmodule */,
 				46CE0334195A1C2D0066A215 /* main.swift */,
 			);
 			path = LoggerTest;
