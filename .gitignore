@@ -3,3 +3,5 @@ Logger/Logger.o
 Logger/Logger.swiftdoc
 Logger/Logger.swiftmodule
 Logger/libLogger.a
+LoggerTest/LoggerTest.xcodeproj/project.xcworkspace/xcuserdata
+LoggerTest/LoggerTest.xcodeproj/xcuserdata
