@@ -7,3 +7,7 @@
 //
 
 import Foundation
+import Logger
+
+var logger = Logger("> ")
+logger.log("Hello")
