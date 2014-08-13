@@ -4,17 +4,17 @@ import Foundation
 ///
 /// Constructor takes prefix string which will be printed before actual object
 ///
-class Logger
+public class Logger
 {
     var prefix: String
     
-    init(_ prefix: String)
+    public init(_ prefix: String)
     {
         self.prefix = prefix
     }
     
     /// Prints `object` with prefix
-    func log<T>(object: T)
+    public func log<T>(object: T)
     {
         print(prefix)
         println(object)
